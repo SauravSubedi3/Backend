@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&family=Kanit:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    margin: 0px 15px; 
+}
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+#Mynav {
+    padding: 10px;
+    background-color: rgb(192, 67, 67);
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+#Mynav li a:hover {
+
+    color: rgb(0, 0, 0);
+
+}
+
+#Mynav ul {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#Mynav li {
+    list-style: none;
+    padding: 5px 25px;
+
+}
+
+#Mynav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+#Section1 {
+    font-family: 'Kanit', sans-serif;
+    flex-direction: column;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 300px;
+
+}
+
+#Section1 div.small {
+    font-size: 25px;
+}
+
+#Mission {
+    height: 300px;
+    justify-content: center;
+
+}
+
+#Mission h3 {
+    
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.card{
+    display: inline-block;
+    
+    background-color: rgb(161, 95, 79);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    height: 200px;
+}
+.card h2{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 120px;
+    padding: 0px 10px;
+}
+.card-img img{
+    height: inherit;
+    
+}
+#section2 {
+    background-color: rgb(234, 98, 14);
+    height: 300px;
+
+}
+
+#section2 h3 {
+    text-align: center;
+    color: rgb(255, 252, 252);
+
+}
+#sponser{
+    height: 190px;
+    max-width: 1000px;
+    margin:30px auto;
+
+}
+.spImg{
+    height: 70%;
+    margin: 20px;
+}
+
+#MyFooter {
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+
+}

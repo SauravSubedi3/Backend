@@ -1,0 +1,48 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js") 
+
+block style
+    style
+        include ../static/style.css
+block content
+    
+    section#Section1
+      div Welcome to JPT3's Dance Institute 
+      div.small Eat Dance Sleep repeat
+
+    section#Mission
+      h3 Our Mission
+      div.card
+          h2 Dance Perfection
+          div.card-box
+              div.card-img
+                  img(src="/static/img/1.png")
+              div.card-content
+                  p The best dance academy of the universe
+
+      div.card
+          h2 Dance the way you like
+          div.card-box
+              div.card-img
+                  img(src="/static/img/2.png")
+              div.card-content
+                  p This is the best dance academy of the universe
+
+      div.card
+          h2 Expert Teaching
+          div.card-box
+              div.card-img
+                  img(src="/static/img/3.png")
+
+              div.card-content
+                  p This is the best dance academy of the universe
+
+    section#section2 
+      h3 Our sponsors 
+      div#sponser
+        img(src="/static/img/logo1.png", alt="img", class="spImg")
+        img(src="/static/img/logo2.png", alt="img", class="spImg")
+        img(src="/static/img/logo3.png", alt="img", class="spImg")
+        img(src="/static/img/logo4.png", alt="img", class="spImg")
